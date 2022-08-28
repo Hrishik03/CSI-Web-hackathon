@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+}
+.credentials{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+}
+.cocktail{
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  transition: width 2s, height 2s, transform 2s;
+}
+.cocktail:hover{
+  width: 190px;
+  height: 200px;
+  transform: rotate(360deg);
+}
+.cocktail_2{
+  position: absolute;
+  right: 10px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  transition: width 2s, height 2s, transform 2s;
+}
+.cocktail_2:hover{
+  width: 190px;
+  height: 200px;
+  transform: rotate(360deg);
+}
+.cocktail_3{
+  position: absolute;
+  right: 291px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  transition: width 2s, height 2s, transform 2s;
+}
+.cocktail_3:hover{
+  width: 190px;
+  height: 200px;
+  transform: rotate(360deg);
+}
+.title{
+  text-align: center;
+  height: 300px;
+  background-color:#6FEDD6;
+  padding: 18px 18px 18px 18px;
+}
+.title_desp{
+  font-family: 'Aboreto', sans-serif;
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 5px;
+}
+.title_desp_2{
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  position: absolute;
+  top: 148px;
+}
+.title_pic{
+  height: 50px;
+  width: 100px;
+  border-radius: 40%;
+}
+#links{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 5px 5px 5px 5px;
+  color: #000;
+  position: relative;
+  right: -503px;
+  top: 13px;
+}
+#Details{
+  text-align: center;
+  margin: 0;
+}
+.coffee{
+  padding-top: 10px;
+  height: 250px ;
+  width: 250px;
+  border-radius: 40%;
+}
+.coffe_desp{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+}
+.juice{
+  padding-top: 10px;
+  height: 250px ;
+  width: 250px;
+  border-radius: 40%;
+}
+.juice_desp{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+}
+.pastries{
+  padding-top: 10px;
+  height: 250px ;
+  width: 250px;
+  border-radius: 40%;
+}
+.pastries_desp{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+}
+.add_desp{
+  padding-top: 10px;
+}
+.more{
+  font-family: 'Merriweather',sans-serif;
+  font-size: 1.5rem;
+}
+#Downloads{
+  padding: 5;
+  text-align: center;
+}
+.App{
+  background-color: #0096FF;
+  padding: 5rem 3rem;
+}
+.app_desp{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #F9F9F9;
+}
+.app_set_1{
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.5rem;
+  font-size: 1rem;
+  background-color: #0096FF;
+  border: 2px solid #F9F9F9;
+}
+.app_set_2{
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.5rem;
+  font-size: 1rem;
+  color: #ffff;
+  background-color: #2C3333;
+  border: 2px solid #F9F9F9;
+}
+.app_set_1:hover{
+  background-color: #ffff;
+}
+.app_set_2:hover{
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+#Contacts{
+  text-align: center;
+}
+.contacts{
+  margin: 3rem 1rem 1rem 1rem;
+}
+.emoji{
+    padding: 2% 2%;
+}
